@@ -109,23 +109,23 @@ nav {
     display: none;
     background: rgba(255, 255, 255, 0.2);
     border: 2px solid white;
-    border-radius: 8px;
+    border-radius: 6px;
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     cursor: pointer;
-    padding: 8px 12px;
+    padding: 6px 10px;
     position: absolute;
     right: 15px;
     top: 15px;
     z-index: 1001;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
 
 .menu-toggle:hover {
     background: rgba(255, 255, 255, 0.3);
-    transform: scale(1.1);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .menu-toggle:active {
