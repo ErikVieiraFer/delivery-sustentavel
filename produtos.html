@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos - Rick's Burger</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="produtos-background">
+
+  <header>
+    <h1>Nossos Produtos</h1>
+    <p>Sempre fornecendo o melhor para você!</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="produtos.html">Produtos</a>
+    <a href="pedido.html">Simular Pedido<span class="cart-badge">0</span></a>
+    <a href="sustentabilidade.html">Sustentabilidade</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+
+  <main>
+    <h2>Confira nosso cardápio digital</h2>
+
+    <div class="produtos-container">
+
+      <div class="produto" data-id="PZ001">
+        <img src="img/marguerita.png" alt="Pizza Margherita">
+        <h3>Pizza Margherita</h3>
+        <p class="descricao">Imagem ilustrativa, Pizza de 8 pedaços, molho de tomate orgânico e queijo muçarela de produtores locais. Embalagem 100% reciclável.</p>
+        <span class="preco">R$ 39,90</span>
+        <button onclick="adicionarProduto('Pizza Margherita', 39.90, 'PZ001')">Adicionar ao Pedido</button>
+      </div>
+
+      <div class="produto" data-id="HB002">
+        <img src="img/hamburger.png" alt="Hambúrguer Artesanal">
+        <h3>Hambúrguer Artesanal</h3>
+        <p class="descricao">Imagem ilustrativa, Carne moída fresca blend de 260g, pão de fermentação natural, cebola, bacon, queijo mussarela, alface. Ingredientes de baixo carbono.</p>
+        <span class="preco">R$ 29,90</span>
+        <button onclick="adicionarProduto('Hambúrguer Artesanal', 29.90, 'HB002')">Adicionar ao Pedido</button>
+      </div>
+
+      <div class="produto" data-id="SH003">
+        <img src="img/sushi.png" alt="Combo Sushi">
+        <h3>Combo Sushi</h3>
+        <p class="descricao">Imagem ilustrativa, Nosso combo possui Nigiri, Maki, Uramaki, Temaki, sem plásticos de uso único no delivery.</p>
+        <span class="preco">R$ 59,90</span>
+        <button onclick="adicionarProduto('Combo Sushi', 59.90, 'SH003')">Adicionar ao Pedido</button>
+      </div>
+
+      <div class="produto" data-id="SL004">
+        <img src="img/salada.png" alt="Salada Vegana">
+        <h3>Salada Vegana</h3>
+        <p class="descricao">Mix de folhas orgânicas, tempero caseiro com ervas frescas, alface americana, rúcula, agrião, tomate cereja, pepino, cenoura ralada, milho, cubos de tofu grelhado. Entregue em embalagem compostável.</p>
+        <span class="preco">R$ 24,90</span>
+        <button onclick="adicionarProduto('Salada Vegana', 24.90, 'SL004')">Adicionar ao Pedido</button>
+      </div>
+      
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Alunos MULTIVIX 4º período - Vila Velha, Espírito Santo</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/animations.js"></script>
+
+</body>
+</html>

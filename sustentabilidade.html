@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustentabilidade</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a2e0e6f6a2.js" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        /* Estilos adicionais para o card e para a área do gráfico */
+        .impacto {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .card {
+            background-color: #e8f5e9;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1 1 220px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .card i {
+            font-size: 36px;
+            color: #2e7d32;
+            margin-bottom: 10px;
+        }
+        
+        #chart-container {
+            margin: 40px auto;
+            max-width: 700px; 
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ASTECA Burger Hamburgueria</h1>
+        <p>Inovação e tecnologia a serviço do meio ambiente</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="pedido.html">Simular Pedido<span class="cart-badge">0</span></a>
+        <a href="sustentabilidade.html">Sustentabilidade</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <main>
+        <h2>Por que digitalizar evita o uso de papel?</h2>
+        <p>Ao optar por um sistema online de delivery e informações, a nossa empresa contribui diretamente para a redução do uso de papel, ajudando o meio ambiente e modernizando o relacionamento com o cliente.</p>
+
+        <ul>
+            <li>
+                <strong>Redução no consumo de água:</strong> cada tonelada de papel pode usar até <b>90.800 litros de água</b>.
+                <a class="source-link" href="https://www.epa.gov" target="_blank">(EPA, 2024)</a>
+            </li>
+            <li>
+                <strong>Conservação de árvores:</strong> a indústria de papel consome cerca de <b>40% da madeira industrial mundial</b>.
+                <a class="source-link" href="https://www.fao.org/forestry/statistics" target="_blank">(FAO, 2024)</a>
+            </li>
+            <li>
+                <strong>Diminuição das emissões de CO₂:</strong> a produção de papel representa aproximadamente <b>1% das emissões industriais globais</b>.
+                <a class="source-link" href="https://www.iea.org/reports/pulp-and-paper" target="_blank">(IEA, 2024)</a>
+            </li>
+            <li>
+                <strong>Menos resíduos:</strong> cerca de <b>26% dos resíduos sólidos urbanos</b> são compostos por papel.
+                <a class="source-link" href="https://www.abrelpe.org.br" target="_blank">(ABRELPE, 2023)</a>
+            </li>
+        </ul>
+
+        <h2>Impacto Sustentável da Digitalização em Números</h2>
+        
+        <div id="chart-container">
+            <canvas id="impactoChart"></canvas>
+        </div>
+
+        <div class="impacto">
+            <div class="card">
+                <i class="fas fa-leaf"></i>
+                <h3>-60%</h3>
+                <p>Menor consumo de papel nas empresas digitalizadas</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-water"></i>
+                <h3>-90.000 L</h3>
+                <p>De água economizados por tonelada de papel evitada</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-tree"></i>
+                <h3>+15 Árvores</h3>
+                <p>Preservadas a cada tonelada de papel não produzida</p>
+            </div>
+        </div>
+
+        <h2>Fontes de Dados</h2>
+        <p>
+            <a class="source-link" href="https://www.iea.org/reports/pulp-and-paper" target="_blank">International Energy Agency (IEA) – Setor de Papel e Celulose, 2024</a><br>
+            <a class="source-link" href="https://www.abrelpe.org.br" target="_blank">ABRELPE – Panorama dos Resíduos Sólidos no Brasil, 2023</a><br>
+            <a class="source-link" href="https://www.fao.org/forestry/statistics" target="_blank">FAO – Forestry Statistics Report, 2024</a><br>
+            <a class="source-link" href="https://www.epa.gov" target="_blank">EPA – Environmental Protection Agency, 2024</a>
+        </p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Alunos MULTIVIX 4º período - Vila Velha, Espírito Santo</p>
+    </footer>
+    
+    <script src="js/sustentabilidade.js"></script>
+    <script src="js/animations.js"></script>
+
+</body>
+</html>
