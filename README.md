@@ -10,41 +10,41 @@
 
 O **ASTECA Burger Delivery** é uma plataforma web de delivery focada em sustentabilidade, desenvolvida como trabalho acadêmico do 4º período da MULTIVIX - Vila Velha, ES. O projeto demonstra como a digitalização pode reduzir significativamente o impacto ambiental eliminando o uso de papel em cardápios e panfletos.
 
-### 🎯 Objetivos
+### Objetivos
 
 - **Eliminar papel:** Cardápios e pedidos 100% digitais
 - **Educação ambiental:** Dados e estatísticas sobre impacto ecológico
 - **Experiência moderna:** Interface intuitiva e responsiva
 - **Sustentabilidade:** Promover consumo consciente através da tecnologia
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-### 🛒 Sistema de Pedidos
+### Sistema de Pedidos
 - Carrinho de compras com LocalStorage
 - Contador de itens em tempo real
 - Adicionar/remover produtos dinamicamente
 - Finalização via WhatsApp
 
-### 🎨 Interface Moderna
+### Interface Moderna
 - **Glassmorphism:** Efeito vidro fosco nos cards
 - **Toast Notifications:** Alertas elegantes
 - **Modal de produtos:** Visualização detalhada
 - **Animações fluidas:** Transições suaves em CSS
 - **Responsive design:** Adaptado para mobile e desktop
 
-### 📱 Mobile-First
+### Mobile-First
 - Menu hamburguer responsivo
 - Sticky header fixo
 - Touch-friendly interactions
 - Otimizado para todas as telas
 
-### 📊 Sustentabilidade
+### Sustentabilidade
 - Dashboard com dados ambientais reais
 - Gráficos interativos (Chart.js)
 - Fontes científicas validadas
 - Estatísticas de impacto ecológico
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5** - Estrutura semântica
 - **CSS3** - Estilização avançada com gradientes, animações e glassmorphism
@@ -53,7 +53,7 @@ O **ASTECA Burger Delivery** é uma plataforma web de delivery focada em sustent
 - **LocalStorage** - Persistência de carrinho
 - **Font Awesome** - Ícones
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 delivery-sustentavel/
@@ -71,7 +71,7 @@ delivery-sustentavel/
 └── img/                   # Imagens e assets
 ```
 
-## 🎨 Destaques Visuais
+## Destaques Visuais
 
 ### Animações Implementadas
 - ✅ Fade-in ao carregar página
@@ -124,7 +124,7 @@ php -S localhost:8000
 http://localhost:8000
 ```
 
-## 🌍 Impacto Ambiental
+## Impacto Ambiental
 
 ### Dados do Projeto
 
@@ -135,28 +135,22 @@ http://localhost:8000
 
 > Fontes: IEA 2024, ABRELPE 2023, FAO 2024, EPA 2024
 
-## 👥 Equipe
+## Equipe
 
 Projeto desenvolvido por alunos do **4º período** - Curso de Tecnologia
 **Instituição:** MULTIVIX - Vila Velha, Espírito Santo
 **Ano:** 2025
 
-## 📄 Licença
+## Licença
 
 Este projeto é de código aberto para fins educacionais.
 
-## 🤝 Contribuições
+## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para:
 - Reportar bugs
 - Sugerir melhorias
 - Abrir pull requests
-
-## 📞 Contato
-
-- 📍 Vila Velha - Espírito Santo
-- 📧 contato@contato.com.br
-- 💬 WhatsApp: Integrado no site
 
 ---
 
