@@ -132,17 +132,18 @@ function adicionarDoModal() {
 
 function setupMobileMenu() {
     const nav = document.querySelector('nav');
+    const header = document.querySelector('header');
 
-    if (!nav) return;
+    if (!nav || !header) return;
 
-    let menuToggle = nav.querySelector('.menu-toggle');
+    let menuToggle = header.querySelector('.menu-toggle');
 
     if (!menuToggle) {
         menuToggle = document.createElement('button');
         menuToggle.className = 'menu-toggle';
         menuToggle.innerHTML = '☰';
         menuToggle.setAttribute('aria-label', 'Menu');
-        nav.parentElement.insertBefore(menuToggle, nav);
+        header.appendChild(menuToggle);
     }
 
     menuToggle.addEventListener('click', () => {
